@@ -1,1 +1,1 @@
-from hello import greet; assert greet("world") == "hello, world"
+from hello import greet, farewell; assert greet("world") == "hello, world"; assert farewell("world") == "bye, world"
